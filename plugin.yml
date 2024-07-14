@@ -1,15 +1,16 @@
 name: Backpack
 main: xenialdan\Backpack\Loader
-version: 0.2.0
-api: [3.14.0]
-author: XenialDan
-softdepend: [DEVirion]
-extensions: ["gd"]
+version: 1.0.1
+api: [5.0.0]
+author: Clajules09
+commands:
+  backpack:
+    description: Manage your backpack
+    usage: /backpack
+    permission: backpack.command
 permissions:
-#TODO
   backpack.command:
-    description: Permission for /backpack command
-    default: op
+    default: true
   backpack.type:
     description: Permission for backpack types, use backpack.type.name to enable a specific type
-    default: op
+    default: true
